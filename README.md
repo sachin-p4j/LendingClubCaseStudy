@@ -1,52 +1,60 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> In this case study, using the techniques in EDA, one should gain knowledge of risk analytics in banking and 
+financial services.
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+#### In this case study we will understand how data is used to,
+* To identify these risky loan applicants
+* To minimise the risk of losing money while lending to customers.
+* To understand the driving factors (or driver variables) behind loan default, i.e. the variables which are 
+strong indicators of default.
+* To identify patterns which indicate if a person is likely to default, which may be used for taking actions 
+such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest 
+rate, etc(#general-information)
+(#technologies-used)
+* Python 3 
 
-<!-- You can include any other section that is pertinent to your problem -->
+
+
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+A consumer finance company which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+* If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
+
+* If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
+
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+#### The analysis in the case study with respect to the charged off loans. There is a more probability of defaulting when :
+* Applicants taking loan for 'home improvement' and have income of 60k -70k
+* Applicants whose home ownership is 'MORTGAGE and have income of 60-70k
+* Applicants who receive interest at the rate of 21-24% and have an income of 70k-80k
+* Applicants who have taken a loan in the range 30k - 35k and are charged interest rate of 15-17.5 %
+* Applicants who have taken a loan for small business and the loan amount is greater than 14k
+* Applicants whose home ownership is 'MORTGAGE and have loan of 14-16k
+* When grade is F and loan amount is between 15k-20k
+* When employment length is 10yrs and loan amount is 12k-14k
+* When the loan is verified and loan amount is above 16k
+* For grade G and interest rate above 20%
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- numpy
+- pandas
+- matplotlib.pyplot
+- seaborn
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+Developed as part of the Exloratory Data Analysis Module required for Post Graduate Diploma in Machine Learning and AI.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+#### Created by Sachin B. Pawar. Feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
