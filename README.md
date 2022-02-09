@@ -3,7 +3,7 @@
 financial services.
 
 
-## Table of Contents
+## Problem Statement
 #### In this case study we will understand how data is used to,
 * To identify these risky loan applicants
 * To minimise the risk of losing money while lending to customers.
@@ -11,9 +11,9 @@ financial services.
 strong indicators of default.
 * To identify patterns which indicate if a person is likely to default, which may be used for taking actions 
 such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest 
-rate, etc(#general-information)
-(#technologies-used)
-* Python 3 
+rate, etc
+
+* Technology used- Python 3 
 
 
 
@@ -43,7 +43,7 @@ A consumer finance company which specialises in lending various types of loans t
 
 
 
-## Technologies Used
+## Libraries Used
 - numpy
 - pandas
 - matplotlib.pyplot
@@ -56,5 +56,5 @@ Developed as part of the Exloratory Data Analysis Module required for Post Gradu
 
 
 ## Contact
-#### Created by Sachin B. Pawar. Feel free to contact me!
+#### Created by Sachin B. Pawar.
 
